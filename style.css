@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #000000;
+  color:white;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #FF8C00;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  color: white;
+  border: 1px solid #B0C4DE;
+  background: black;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #00BFFF;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.go_login {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  background: #00BFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+/*
+Личный кабинет
+*/
+
+.go_lk {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #FF8C00;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.lk_exit {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  background: #00BFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.go_back {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  background: #4682B4;
+  border: none;
+  border-radius: 5px;
+}
+
+/*
+Личный кабинет (Конец)
+*/
+
+.welcome {
+	position: absolute;
+	color: #FFFFFF;
+	right: 138px;
+	top: 7px;
+}
+
+/*
+Кнопка upload
+*/
+
+#upload {
+  padding: 3px 14px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.701961) 0px 5px 12px;
+   -webkit-transform-origin: 50% 1px;
+   -webkit-transition: all 0.15s ease-in-out;
+  background:  #161616;
+  border-color: rgba(255, 255, 255, 0.027451) #FF8C39 rgba(255, 255, 255, 0.027451) rgba(255, 255, 255, 0.027451);
+   border-style: solid;
+  border-width: 1px 4px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.701961) 0px 5px 12px;
+  color: #FFFFFF;
+  display:block;
+  width:90px;
+  font-family: Open Sans, Sans-serif;
+  border-radius: 5px;
+   font-size: 13px;
+  letter-spacing: 4px;
+  text-shadow: rgb(0, 0, 0) 0px 1px 1px;
+  line-height: 30px;
+  position: relative;
+ margin: 20px auto;
+  text-align: center;
+  text-decoration:none;
+}
+
+#upload:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  border-width: 1px 7px 1px 1px;
+}
+
+/*
+Кнопка upload (Конец)
+*/
+
+/*
+Картинки
+*/
+
+.photo_table {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 15px;
+}
+
+/*
+Картинки (конец)
+*/
+
+/*
+Страницы
+*/
+
+.next_page {
+	color:white;
+}
+
+
+/*
+Страницы (Конец)
+*/
